@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("./assets/home.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Libre Baskerville', serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+    gap: 50px;
+}
+
+.header {
+    background-color: rgb(216,112,147,0.5);
+    width: auto;
+
+    display: grid;
+}
+
+.container {
+    background-color: rgba(255,192,203,0.85);
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
