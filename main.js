@@ -1,1 +1,1 @@
-console.log("test 2");
+(()=>{"use strict";console.log("test 2"),function(){const t=document.querySelector("#content"),e=document.createElement("div");e.classList.add("container"),t.appendChild(e);const n=document.createElement("p");n.textContent="The Big Donut is a store in Beach City that sells donuts, assorted food, and drink products.",e.appendChild(n);const o=document.createElement("p");o.textContent="The Big Donut opens at 7:00 but at 7:30 on Sundays.",e.appendChild(o)}()})();
