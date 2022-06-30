@@ -14,4 +14,7 @@ export function contact() {
     paraOne.textContent = "Please contact Bill Dewey";
     container.appendChild(paraOne);
 
+    const paraTwo = document.createElement("p");
+    paraTwo.textContent = "Location: Beach City";
+    container.appendChild(paraTwo);
 }
