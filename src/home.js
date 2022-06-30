@@ -1,9 +1,12 @@
 export function home() {
-    document.body.style.backgroundImage = "url('../dist/assets/home.jpg')";
+    const bodyHome = document.querySelector("body");
+    bodyHome.classList.remove("body-contact", "body-menu");
+    bodyHome.classList.add("body-home");
 
     const contentDiv = document.querySelector("#content");
 
     contentDiv.replaceChildren();
+    
 
     const container = document.createElement("div");
     container.classList.add("container");

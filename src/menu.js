@@ -1,5 +1,7 @@
 export function menu() {
-    document.body.style.backgroundImage = "url('../dist/assets/menu.jpg')";
+    const bodyMenu = document.querySelector("body");
+    bodyMenu.classList.remove("body-contact", "body-home");
+    bodyMenu.classList.add("body-menu");
 
     const contentDiv = document.querySelector("#content");
 

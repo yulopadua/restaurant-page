@@ -1,5 +1,7 @@
 export function contact() {
-    document.body.style.backgroundImage = "url('../dist/assets/contact.jpg')";
+    const bodyContact = document.querySelector("body");
+    bodyContact.classList.remove("body-home", "body-menu");
+    bodyContact.classList.add("body-contact");
 
     const contentDiv = document.querySelector("#content");
 
