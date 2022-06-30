@@ -1,5 +1,5 @@
 export function menu() {
-    document.body.style.backgroundImage = "url('../src/assets/menu.webp')";
+    document.body.style.backgroundImage = "url('../dist/assets/menu.jpg')";
 
     const contentDiv = document.querySelector("#content");
 

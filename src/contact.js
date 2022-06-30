@@ -1,5 +1,5 @@
 export function contact() {
-    document.body.style.backgroundImage = "url('../src/assets/contact.webp')";
+    document.body.style.backgroundImage = "url('../dist/assets/contact.jpg')";
 
     const contentDiv = document.querySelector("#content");
 

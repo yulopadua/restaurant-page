@@ -1,5 +1,5 @@
 export function home() {
-    document.body.style.backgroundImage = "url('../src/assets/home.png')";
+    document.body.style.backgroundImage = "url('../dist/assets/home.jpg')";
 
     const contentDiv = document.querySelector("#content");
 
