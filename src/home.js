@@ -1,5 +1,10 @@
 export function home() {
+    document.body.style.backgroundImage = "url('../src/assets/home.png')";
+
     const contentDiv = document.querySelector("#content");
+
+    contentDiv.replaceChildren();
+
     const container = document.createElement("div");
     container.classList.add("container");
 
